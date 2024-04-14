@@ -61,10 +61,10 @@ Before getting started, make sure you have the following installed on your machi
 ### Authentication
 
 - Authentication is handled using JSON Web Tokens (JWT).
-- Include the JWT token in the `Authorization` header of each request as follows:
+- Include the JWT token in the `Cookie` header of each request as follows:
 
   ```plaintext
-  Authorization: Bearer <your_jwt_token>
+  Cookie: token=<your_jwt_token>
   ```
 
 ## Contributing
