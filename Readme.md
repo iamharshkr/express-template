@@ -53,9 +53,10 @@ Before getting started, make sure you have the following installed on your machi
 
 - `POST /api/user/register`: Register a new user.
 - `POST /api/user/login`: Log in an existing user.
-- `GET /api/user/profile`: Get the profile of the currently logged-in user.
-- `PUT /api/user/profile`: Update the profile of the currently logged-in user.
-- `DELETE /api/user/profile`: Delete the profile of the currently logged-in user.
+- `GET /api/me`: Get the profile of the currently logged-in user.
+- `PUT /api/me/update`: Update the profile of the currently logged-in user.
+- `POST /api/password/forgot`: Forget Password email.
+- `PUT /api/password/update`: Change password.
 
 ### Authentication
 
