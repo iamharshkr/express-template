@@ -51,12 +51,12 @@ Before getting started, make sure you have the following installed on your machi
 
 ### User Routes
 
-- `POST /api/user/register`: Register a new user.
-- `POST /api/user/login`: Log in an existing user.
-- `GET /api/me`: Get the profile of the currently logged-in user.
-- `PUT /api/me/update`: Update the profile of the currently logged-in user.
-- `POST /api/password/forgot`: Forget Password email.
-- `PUT /api/password/update`: Change password.
+- `POST /api/v1/register`: Register a new user.
+- `POST /api/v1/login`: Log in an existing user.
+- `GET /api/v1/me`: Get the profile of the currently logged-in user.
+- `PUT /api/v1/me/update`: Update the profile of the currently logged-in user.
+- `POST /api/v1/password/forgot`: Forget Password email.
+- `PUT /api/v1/password/update`: Change password.
 
 ### Authentication
 
